@@ -7,7 +7,7 @@ interface Props {
 const HamburgerMenu = (props: Props) => {
     return (
         <div>
-
+            
         </div>
     )
 }

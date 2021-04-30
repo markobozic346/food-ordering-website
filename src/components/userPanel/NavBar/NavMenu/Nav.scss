@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+.nav > * {
+  flex-basis: 100%;
+  margin: 10px;
+  color: #bb2b1b;
+  font-weight: 500;
+}

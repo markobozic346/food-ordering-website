@@ -1,0 +1,15 @@
+.cart {
+  font-size: 1.5rem;
+  margin: 15px;
+  position: relative;
+}
+.cart-item-number {
+  position: absolute;
+  top: -25px;
+  left: 20px;
+  padding: 3px;
+  color: white;
+  font-size: medium;
+  background-color: #bb2b1bad;
+  border-radius: 5px;
+}
