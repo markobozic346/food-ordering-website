@@ -1,7 +1,8 @@
+@import "../../../../sassStyles/variables.scss";
 
 .logo {
-    padding: 5px 0 0 5px;
-    font-size: 2rem;
-    font-family: "Pacifico", cursive;
-    color: #bb2b1b;
-  }
+  padding: 5px 0 0 5px;
+  font-size: 2rem;
+  font-family: "Pacifico", cursive;
+  color: $primary-red;
+}

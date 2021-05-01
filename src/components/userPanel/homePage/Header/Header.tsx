@@ -9,7 +9,7 @@ const Header = (props: Props) => {
         <div className='header'>
             <div className="text-container">
                 <div className="text">
-
+                    <h1>yum-yum</h1>
                 </div>
             </div>
         </div>

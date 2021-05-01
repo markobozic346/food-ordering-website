@@ -1,3 +1,5 @@
+@import "../../../../sassStyles/variables.scss";
+
 .cart {
   font-size: 1.5rem;
   margin: 15px;
@@ -8,8 +10,8 @@
   top: -25px;
   left: 20px;
   padding: 3px;
-  color: white;
+  color: $pure-white;
   font-size: medium;
-  background-color: #bb2b1bad;
+  background-color: $primary-red;
   border-radius: 5px;
 }

@@ -1,3 +1,4 @@
+@import "../../../../sassStyles/variables.scss";
 .nav {
   display: flex;
   width: 50%;
@@ -9,12 +10,11 @@
   flex-basis: 100%;
   margin: 10px;
 
-  color: #bb2b1b;
+  color: $primary-red;
   font-weight: 500;
 }
 .order-now {
-  background-color: #bb2b1b;
-  border: 2px solid #bb2b1b;
-  color: white;
+  background-color: $primary-red;
+  color: $pure-white;
   border-radius: 10px;
 }

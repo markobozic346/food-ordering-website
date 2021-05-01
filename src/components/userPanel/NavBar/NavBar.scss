@@ -1,7 +1,9 @@
+@import "../../../sassStyles/variables.scss";
+
 .navbar-container {
   position: absolute;
   height: 4em;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.493);
+  background-color: $transparent-black;
   display: flex;
 }
