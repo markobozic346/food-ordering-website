@@ -1,6 +1,47 @@
+@import "../../../../sassStyles/variables.scss";
 .header {
   width: 100%;
   height: 100vh;
   background-image: url("../../../../images/wallpaper4.jpg");
-  background-size: cover;
+  //background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.yum {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: absolute;
+  left: 6%;
+  top: 70%;
+  transform-origin: 0 0;
+  transform: rotate(-63deg);
+  text-shadow: 2px 2px 2px $transparent-black;
+  font-size: 6vw;
+  color: #efd28a4f;
+}
+
+.header-text {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
+  position: absolute;
+  top: 400px;
+  left: 500px;
+  color: #ffdb58c5;
+  padding: 5px;
+  margin: 0px;
+  width: 600px;
+  font-size: 1.5rem;
+  background-color: $transparent-black;
+  border-radius: 5px;
+}
+.mission {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 180px;
+  left: 500px;
+  width: 600px;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  font-size: 8vw;
+  color: #ffdb58c5;
 }
