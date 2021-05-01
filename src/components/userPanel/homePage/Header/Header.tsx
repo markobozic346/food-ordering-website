@@ -7,7 +7,11 @@ interface Props {
 const Header = (props: Props) => {
     return (
         <div className='header'>
+            <div className="text-container">
+                <div className="text">
 
+                </div>
+            </div>
         </div>
     )
 }
