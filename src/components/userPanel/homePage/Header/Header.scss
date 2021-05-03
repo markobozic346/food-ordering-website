@@ -10,8 +10,7 @@
   background-blend-mode: multiply;
 }
 .yum {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: $lucida-sans;
   position: absolute;
   left: 6%;
   top: 70%;
@@ -23,21 +22,7 @@
 }
 
 .header-text {
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479);
-  position: absolute;
-  top: 400px;
-  left: 500px;
-  color: $transparent-yellow;
-  padding: 5px;
-  margin: 0px;
-  width: 600px;
-  font-size: 1.5rem;
-  background-color: $transparent-black;
-  border-radius: 5px;
-}
-.mission {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: $lucida-sans;
   position: absolute;
   width: 100%;
   top: 180px;
