@@ -6,6 +6,8 @@
   //background-size: cover;
   background-size: 100%;
   background-repeat: no-repeat;
+  background-color: $transparent-black;
+  background-blend-mode: multiply;
 }
 .yum {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -25,7 +27,7 @@
   position: absolute;
   top: 400px;
   left: 500px;
-  color: #ffdb58c5;
+  color: $transparent-yellow;
   padding: 5px;
   margin: 0px;
   width: 600px;
@@ -37,11 +39,13 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   position: absolute;
+  width: 100%;
   top: 180px;
   left: 500px;
   width: 600px;
   text-align: center;
   text-shadow: 2px 2px 2px black;
-  font-size: 8vw;
-  color: #ffdb58c5;
+  font-size: 5vw;
+  color: $transparent-yellow;
+  font-weight: 800;
 }
