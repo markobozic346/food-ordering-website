@@ -1,0 +1,5 @@
+@import "./variables.scss";
+@mixin darker-image {
+  background-color: $transparent-black;
+  background-blend-mode: multiply;
+}
