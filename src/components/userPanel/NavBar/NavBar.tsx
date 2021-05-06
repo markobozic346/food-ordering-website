@@ -1,5 +1,6 @@
 import React from 'react'
-import Cart from './Cart/Cart'
+import Admin from './Icons/Admin'
+import Cart from './Icons/Cart'
 import Logo from './Logo/Logo'
 import './NavBar.scss'
 import Nav from './NavMenu/Nav'
@@ -13,6 +14,7 @@ const NavBar = (props: Props) => {
             <Logo />
             <Nav />
             <Cart />
+            <Admin />
         </div>
     )
 }

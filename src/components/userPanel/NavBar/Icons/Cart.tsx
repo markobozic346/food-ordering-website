@@ -1,12 +1,12 @@
 import React from 'react'
-import './Cart.scss'
+import './Icons.scss'
 interface Props {
 
 }
 
 const Cart = (props: Props) => {
     return (
-        <div className='cart'>
+        <div className='icon'>
             🛒
             <p className='cart-item-number'>0</p>
         </div>
